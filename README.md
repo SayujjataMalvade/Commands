@@ -73,7 +73,7 @@ systemctl start nginx      # Start service
 systemctl stop nginx       # Stop service
 systemctl restart nginx    # Restart service
 journalctl -u nginx -f     # View live service logs
-systemctl list-unit-files  #  all available systemd unit files
+systemctl list-unit-files  # All available systemd unit files
 ```
 
 **Compression & Archives**
